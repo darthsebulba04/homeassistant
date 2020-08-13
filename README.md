@@ -9,10 +9,13 @@ Subscribed to [Home Assistant Cloud by Nabu Casa] for location tracking and easy
 ## Features
 
 ### Away
-Alerts when away if motion is detected inside. Also turns off all lights and sets thermostat in "away" mode.
+Alerts when away if motion is detected inside. Also turns off all lights and sets thermostat in "eco" mode.
 
 ### Backup
 Automatically create snapshot each night for backup purposes.
+
+### Manual
+Manual switches and controls in the event things go wrong.
 
 ### Sleep
 Internal control for when sleeping so things don't happen in the middle of the night that aren't supposed to.
@@ -38,7 +41,6 @@ home -> in_bed -> sleeping -> just_woke -> home
 
 ## Hardware
 - Raspberry Pi 4b w/ 4GB RAM
-
 - HUSBZB-1 USB Z-Wave+/Zigbee controller
 - HiLetgo 433 Mhz Transmitter + Receiver Kit
 - Various color female-to-female jumper wires
