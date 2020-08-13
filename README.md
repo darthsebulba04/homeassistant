@@ -46,6 +46,8 @@ home -> in_bed -> sleeping -> just_woke -> home
 - Various color female-to-female jumper wires
 - USB extension cable
 
+![hass-pi]
+
 ## Things
 ### [LIFX A19] 
 WiFi based color changing standard light bulbs.
@@ -219,3 +221,4 @@ Integrate Spotify and have music/podcasts play to bluetooth speaker.
 [Home Assistant Cloud by Nabu Casa]: https://www.nabucasa.com
 [Home Assistant]: https://www.home-assistant.io
 [Nonbinary Presence Detection]: https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/
+[hass-pi]: https://github.com/darthsebulba04/homeassistant/blob/master/rpi-hass.jpg
