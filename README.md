@@ -165,7 +165,10 @@ For receiving data from the door sensor, simple motion sensor, and phillips hue 
 ## Notable Features
 
 ### Away
-Alerts when away if motion is detected inside.
+Alerts when away if motion is detected inside. Also turns off all lights and sets thermostat in "away" mode.
+
+### Backup
+Automatically create snapshot each night for backup purposes.
 
 ### Sleep
 Internal control for when sleeping so things don't happen in the middle of the night that aren't supposed to.
@@ -175,7 +178,7 @@ Implements [Nonbinary Presence Detection] for easy, yet powerful, presence detec
 
 State | Purpose
 --- | ---
-home | In "home" zone, been 'just_arrived' or 'just_woke' for a set amount of time.
+home | In "home" zone or been 'just_arrived' or 'just_woke' for a set amount of time.
 just_left | Just left the "home" zone.
 away | Been 'just_left' for a set amount of time.
 just_arrived | Just entered the "home" zone.
@@ -188,6 +191,14 @@ home -> just_left -> away -> just_arrived -> home
 
 home -> in_bed -> sleeping -> just_woke -> home
 ````
+
+## Future Projects
+
+### BackBlaze
+Push daily snapshots to BackBlaze B2 for online backup and recovery.
+
+### Spotify
+Integrate Spotify and have music/podcasts play to bluetooth speaker.
 
 [LIFX A19]: https://www.lifx.com/collections/lamps-and-pendants/products/lifx
 [Etekcity ZAP]: https://www.etekcity.com/product/100068.html
