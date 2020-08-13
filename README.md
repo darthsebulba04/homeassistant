@@ -7,10 +7,14 @@ Everything but the [Nest] thermostat is controlled locally and has no online req
 Subscribed to [Home Assistant Cloud by Nabu Casa] for location tracking and easy remote access.
 
 ## UI
+### iPhone
+![hass-iphone-lights] ![hass-iphone-outlets]
 
-![hass-iphone-lights] | ![hass-iphone-outlets] |
-![hass-iphone-inside] | ![hass-iphone-outside] |
+![hass-iphone-inside] ![hass-iphone-outside] 
+
+### iPad
 ![hass-ipad]
+
 
 ## Features
 
