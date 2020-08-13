@@ -189,6 +189,15 @@ For receiving data from the ZOOZ motion sensors.
 ### Raspberry Pi RF
 For sending RF codes to the ZAP outlets.
 
+Pin | Use | Purpose
+--- | --- | ---
+02 | 5v | Send power (red)
+09 | Ground | Send ground (black)
+11 | GPIO 17 | Send data (green)
+17 | 3v3 | Recv power (red)
+18 | GPIO 24 | Recv data (yellow)
+20 | Ground | Recv ground (black)
+
 ### Zigbee
 For receiving data from the door sensor, simple motion sensor, and phillips hue remotes.
 
