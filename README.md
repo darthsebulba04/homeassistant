@@ -40,9 +40,9 @@ home -> in_bed -> sleeping -> just_woke -> home
 ````
 
 ## Hardware
-- Raspberry Pi 4b w/ 4GB RAM
-- HUSBZB-1 USB Z-Wave+/Zigbee controller
-- HiLetgo 433 Mhz Transmitter + Receiver Kit
+- [Raspberry Pi 4b] w/ 4GB RAM
+- [Nortek HUSBZB-1] USB Z-Wave+/Zigbee controller
+- [HiLetgo 433 Mhz Transmitter + Receiver] Kit
 - Various color female-to-female jumper wires
 - USB extension cable
 
@@ -222,3 +222,6 @@ Integrate Spotify and have music/podcasts play to bluetooth speaker.
 [Home Assistant]: https://www.home-assistant.io
 [Nonbinary Presence Detection]: https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/
 [hass-pi]: https://github.com/darthsebulba04/homeassistant/blob/master/rpi-hass.jpg
+[Raspberry Pi 4b]: https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
+[Nortek HUSBZB-1]: https://www.nortekcontrol.com/products/2gig/husbzb-1-gocontrol-quickstick-combo/
+[HiLetgo 433 Mhz Transmitter + Receiver]: https://www.instructables.com/id/RF-315433-MHz-Transmitter-receiver-Module-and-Ardu/
