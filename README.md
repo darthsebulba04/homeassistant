@@ -4,7 +4,7 @@ The goal of this setup was to create a home automation system that had no cloud 
 
 Everything but the [Nest] thermostat is controlled locally and has no online requirement.
 
-Subscribed to Home Assistant Cloud by Nabu Casa for location tracking and easy remote access.
+Subscribed to [Home Assistant Cloud by Nabu Casa] for location tracking and easy remote access.
 
 ## Hardware
 - Raspberry Pi 4b w/ 4GB RAM
@@ -85,8 +85,8 @@ _Chosen because I already had it._
 #### Remote Functions
 Button | Function
 --- | ---
-On | 
-Off |
+On | Enable "away" mode
+Off | Disable "away" mode
 
 ### Kitchen
 - 2x [Etekcity ZAP] (salt lamp, night light)
@@ -125,8 +125,8 @@ On (Long) | Start LIFX color swirl
 ### Circadian Lighting
 For keeping the color temp on the LIFX bulbs from messing with my sleep.
 
-### iOS Mobile App (with Nabu Casa Cloud)
-For the location tracking and local/remote control.
+### iOS Mobile App
+For the location tracking and local/remote control.  Integrates perfectly with [Home Assistant Cloud by Nabu Casa]
 
 ### LIFX
 For control of the LIFX bulbs.
@@ -154,3 +154,4 @@ For receiving data from the door sensor, simple motion sensor, and phillips hue 
 [Phillips Hue RWL020]: https://www.philips-hue.com/en-us/p/hue-dimmer-switch/046677473372
 [ZOOZ ZSE40]: http://www.getzooz.com/zooz-zse40-4-in-1-sensor.html
 [Nest]: https://store.google.com/us/product/nest_learning_thermostat_3rd_gen?hl=en-US
+[Home Assistant Cloud by Nabu Casa]: https://www.nabucasa.com
