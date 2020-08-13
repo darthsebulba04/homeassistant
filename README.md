@@ -1,8 +1,10 @@
 # Home Assistant Configuration
 
-The goal of this setup was to create a home automation system that had no cloud dependancy.  After losing several almost all services I used over the last year, I decided to DIY all of it and hopefully never have to deal with that again.
+The goal of this setup was to create a home automation system that had no cloud dependancy.  After losing almost all services I used over the last year, I decided to DIY all of it and hopefully never have to deal with that again.
 
-Everything but the thermostat is controlled locally and has no online requirement.
+Everything but the [Nest] thermostat is controlled locally and has no online requirement.
+
+Subscribed to Home Assistant Cloud by Nabu Casa for location tracking and easy remote access.
 
 ## Hardware
 - Raspberry Pi 4b w/ 4GB RAM
@@ -63,7 +65,7 @@ _Chosen because I already had it._
 - Count: 1x
 - Protocol: Zigbee
 
-## Rooms
+## Areas
 
 ### Bathroom
 - 1x [Etekcity ZAP] (salt lamp nightlight)
@@ -80,6 +82,12 @@ _Chosen because I already had it._
 - 1x Lowes 3326-L
 - 1x [Nest]
 
+#### Remote Functions
+Button | Function
+--- | ---
+On | 
+Off |
+
 ### Kitchen
 - 2x [Etekcity ZAP] (salt lamp, night light)
 
@@ -89,10 +97,57 @@ _Chosen because I already had it._
 - 1x [ZOOZ ZSE40]
 - 1x [Phillips Hue RWL020]
 
+#### Remote Functions
+Button | Function
+--- | ---
+On | Turn LIFX bulbs on
+Off | Turn LIFX bulbs off
+DimUp | Increase LIFX brightness
+DimDown | Decrease LIFX brightness
+On (Long) | Start LIFX color swirl
+
 ### Office
 - 2x [LIFX A19] (floor lamp, table lamp)
 - 1x [ZOOZ ZSE40]
 - 1x [Phillips Hue RWL020]
+
+#### Remote Functions
+Button | Function
+--- | ---
+On | Turn LIFX bulbs on
+Off | Turn LIFX bulbs off
+DimUp | Increase LIFX brightness
+DimDown | Decrease LIFX brightness
+On (Long) | Start LIFX color swirl
+
+## Integrations
+
+### Circadian Lighting
+For keeping the color temp on the LIFX bulbs from messing with my sleep.
+
+### iOS Mobile App (with Nabu Casa Cloud)
+For the location tracking and local/remote control.
+
+### LIFX
+For control of the LIFX bulbs.
+
+### Met.no
+For the weather.
+
+### MQTT
+For communication with Open Z-Wave Add-on.
+
+### Nest
+For control of the Nest thermostat.
+
+### Open ZWave
+For receiving data from the ZOOZ motion sensors.
+
+### Raspberry Pi RF
+For sending RF codes to the ZAP outlets.
+
+### Zigbee
+For receiving data from the door sensor, simple motion sensor, and phillips hue remotes.
 
 [LIFX A19]: https://www.lifx.com/collections/lamps-and-pendants/products/lifx
 [Etekcity ZAP]: https://www.etekcity.com/product/100068.html
