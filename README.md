@@ -52,14 +52,14 @@ _Chosen for its sleek looks._
 - Protocol: wifi (cloud)
 
 ### Lowes 1116-S Door Sensor (discontinued)
-Open/close sensor for seeing of bedroom door is open or closed.
+Open/close sensor for seeing of bedroom door is open or closed. Also reports temperature.
 
 _Chosen because I already had it_
 - Count: 1x
 - Protocol: Zigbee
 
 ### Lowes 3326-L Motion Sensor (discontinued)
-Basic motion sensor.
+Basic motion sensor. Also reports temperature.
 
 _Chosen because I already had it._
 - Count: 1x
