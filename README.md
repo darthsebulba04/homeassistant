@@ -1,6 +1,6 @@
 # Home Assistant Configuration
 
-The goal of this setup is to create a home automation system that had no cloud dependancy.  After losing almost all cloud-only based services over the last year, I decided to DIY all of it and hopefully never have to deal with that again.  There are no hubs or outside controllers in this. Everything is controlled with a standard install of [Home Assistant] on a Raspberry Pi.
+The goal of this setup is to create a home automation system that has no cloud dependancy.  After losing almost all cloud controlled based services over the last year, I decided to DIY all of it and never deal with that again.  There are no hubs or outside controllers in this.  Everything is controlled with a standard install of [Home Assistant] on a Raspberry Pi.
 
 Everything but the [Nest] thermostat is controlled locally and has no online requirement.
 
@@ -114,7 +114,7 @@ _Chosen because I already had it._
 ## Areas
 
 ### Bathroom
-- 1x [Etekcity ZAP] (salt lamp nightlight)
+- 1x [Etekcity ZAP] (salt lamp night light)
 
 ### Bedroom
 - 2x [Etekcity ZAP] (salt lamp, normal table lamp)
@@ -186,7 +186,7 @@ No Motion | Turn lights off after set time
 For keeping the color temp on the LIFX bulbs from messing with my sleep.
 
 ### iOS Mobile App
-For the location tracking and local/remote control.  Integrates perfectly with [Home Assistant Cloud by Nabu Casa]
+For the location tracking and local/remote control.  Integrates perfectly with [Home Assistant Cloud by Nabu Casa].
 
 ### LIFX
 For control of the LIFX bulbs.
