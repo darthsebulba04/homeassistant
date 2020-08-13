@@ -13,7 +13,7 @@ Everything but the thermostat is controlled locally and has no online requiremen
 - USB extension cable
 - Various color female-to-female jumper wires
 
-## Sensors/outlets
+## Things
 ### [LIFX A19] color change bulbs
 _Chosen because they're the best color changing bulbs I've seen._
 - Count: 4x
