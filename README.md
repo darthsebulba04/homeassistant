@@ -6,6 +6,36 @@ Everything but the [Nest] thermostat is controlled locally and has no online req
 
 Subscribed to [Home Assistant Cloud by Nabu Casa] for location tracking and easy remote access.
 
+## Features
+
+### Away
+Alerts when away if motion is detected inside. Also turns off all lights and sets thermostat in "away" mode.
+
+### Backup
+Automatically create snapshot each night for backup purposes.
+
+### Sleep
+Internal control for when sleeping so things don't happen in the middle of the night that aren't supposed to.
+
+### States
+Implements [Nonbinary Presence Detection] for easy, yet powerful, presence detection.
+
+State | Purpose
+--- | ---
+home | In "home" zone or been 'just_arrived' or 'just_woke' for a set amount of time.
+just_left | Just left the "home" zone.
+away | Been 'just_left' for a set amount of time.
+just_arrived | Just entered the "home" zone.
+in_bed | Bedroom door just closed.
+sleeping | Been 'in_bed' for a set amount of time.
+just_woke | Bedroom door just opened.
+
+````
+home -> just_left -> away -> just_arrived -> home
+
+home -> in_bed -> sleeping -> just_woke -> home
+````
+
 ## Hardware
 - Raspberry Pi 4b w/ 4GB RAM
 
@@ -161,36 +191,6 @@ For sending RF codes to the ZAP outlets.
 
 ### Zigbee
 For receiving data from the door sensor, simple motion sensor, and phillips hue remotes.
-
-## Notable Features
-
-### Away
-Alerts when away if motion is detected inside. Also turns off all lights and sets thermostat in "away" mode.
-
-### Backup
-Automatically create snapshot each night for backup purposes.
-
-### Sleep
-Internal control for when sleeping so things don't happen in the middle of the night that aren't supposed to.
-
-### States
-Implements [Nonbinary Presence Detection] for easy, yet powerful, presence detection.
-
-State | Purpose
---- | ---
-home | In "home" zone or been 'just_arrived' or 'just_woke' for a set amount of time.
-just_left | Just left the "home" zone.
-away | Been 'just_left' for a set amount of time.
-just_arrived | Just entered the "home" zone.
-in_bed | Bedroom door just closed.
-sleeping | Been 'in_bed' for a set amount of time.
-just_woke | Bedroom door just opened.
-
-````
-home -> just_left -> away -> just_arrived -> home
-
-home -> in_bed -> sleeping -> just_woke -> home
-````
 
 ## Future Projects
 
