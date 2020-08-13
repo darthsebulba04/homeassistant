@@ -14,14 +14,17 @@ Everything but the thermostat is controlled locally and has no online requiremen
 - Various color female-to-female jumper wires
 
 ## Things
-### [LIFX A19] color change bulbs
+### [LIFX A19] 
+WiFi based color changing standard light bulbs.
+
 _Chosen because they're the best color changing bulbs I've seen._
 - Count: 4x
 - Protocol: wifi
 
 ### [Etekcity ZAP] wall outlets
 Cheap outlets for controlling basic lamps and salt lamps. 
-_Chosen for the independant remote control._
+
+_Chosen for the independant remote control and low cost._
 - Count: 10x
 - Protocol: RF 433Mhz
 
@@ -47,14 +50,16 @@ _Chosen for its sleek looks._
 - Protocol: wifi (cloud)
 
 ### Lowes 1116-S Door Sensor (discontinued)
-For seeing of bedroom door is open or closed.
+Open/close sensor for seeing of bedroom door is open or closed.
 
 _Chosen because I already had it_
 - Count: 1x
 - Protocol: Zigbee
 
 ### Lowes 3326-L Motion Sensor (discontinued)
-_Used because I already had it from before._
+Basic motion sensor.
+
+_Chosen because I already had it._
 - Count: 1x
 - Protocol: Zigbee
 
