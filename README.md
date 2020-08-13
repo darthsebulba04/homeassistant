@@ -6,6 +6,7 @@ Everything but the thermostat is controlled locally and has no online requiremen
 
 ## Hardware
 - Raspberry Pi 4b w/ 4GB RAM
+
 - HUSBZB-1 USB Z-Wave+/Zigbee controller
 - HiLetgo 433M Transmitter + Receiver Kit
 
@@ -89,11 +90,7 @@ _Used because I already had it from before._
 - 1x [Phillips Hue RWL020]
 
 [LIFX A19]: https://www.lifx.com/collections/lamps-and-pendants/products/lifx
-[lifx-pic]: https://cdn.shopify.com/s/files/1/0219/0638/products/PDP_Hero_-_Product_hero_1800x1800.jpg?v=1591079434
 [Etekcity ZAP]: https://www.etekcity.com/product/100068.html
-[zap-pic]: https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fecx.images-amazon.com%2Fimages%2FI%2F416Sv6j7KTL._SY300_.jpg&f=1&nofb=1
 [Phillips Hue RWL020]: https://www.philips-hue.com/en-us/p/hue-dimmer-switch/046677473372
-[phillips-pic]: https://www.assets.signify.com/is/image/PhilipsLighting/b95c17641bc945adb714a9b900a25f2f?wid=1280&hei=1280&$jpglarge$
 [ZOOZ ZSE40]: http://www.getzooz.com/zooz-zse40-4-in-1-sensor.html
-[zooz-pic]: https://www.getzooz.com/assets/img/other/06-ZOOZ-4-IN-1-SENSOR-REQUESTED-FEATURES.png
 [Nest]: https://store.google.com/us/product/nest_learning_thermostat_3rd_gen?hl=en-US
