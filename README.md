@@ -53,7 +53,7 @@ home -> in_bed -> sleeping -> just_woke -> home
 Very little yaml code written.  Ninty percent of all work done was done with the built in configuration editors.
 
 ## Hardware
-- [Raspberry Pi 4b] w/ 4GB RAM
+- [Raspberry Pi 4b] w/ 4GB RAM + 32GB SD card
 - [Nortek HUSBZB-1] USB Z-Wave+/Zigbee controller
 - [HiLetgo 433 Mhz Transmitter + Receiver] Kit
 - Various color female-to-female jumper wires
@@ -63,9 +63,9 @@ Very little yaml code written.  Ninty percent of all work done was done with the
 
 ## Things
 ### [LIFX A19] 
-WiFi based color changing standard light bulbs.
+WiFi based color changing light bulbs.
 
-_Chosen because they're the best color changing bulbs I've seen._
+_Chosen because they're the best color changing bulbs I've seenand they fit in any lamp._
 - Count: 4x
 - Protocol: wifi
 
@@ -79,7 +79,7 @@ _Chosen for the independant remote control and low cost._
 ### [Phillips Hue RWL020] Smart Dimmer Switch and Remote
 Great remotes for manually toggling lights and changing brightness. 
 
-_Chosen for it's many button options and portability._
+_Chosen for the many button options and portability._
 - Count: 3x
 - Protocol: Zigbee 
 
@@ -98,7 +98,7 @@ _Chosen for its sleek looks._
 - Protocol: wifi (cloud)
 
 ### Lowes 1116-S Door Sensor (discontinued)
-Open/close sensor for seeing of bedroom door is open or closed. Also reports temperature.
+Open/close sensor. Also reports temperature.
 
 _Chosen because I already had it_
 - Count: 1x
@@ -156,7 +156,7 @@ On (Long) | Start LIFX color swirl
 Value | Function
 --- | ---
 Luminosity | Enable motion sensor to trigger lights when light levels below a certain threshold
-Motion | Trigger lights with motion
+Motion | Trigger lights on with motion
 No Motion | Turn lights off after set time
 
 ### Office
@@ -177,7 +177,7 @@ On (Long) | Start LIFX color swirl
 Value | Function
 --- | ---
 Luminosity | Enable motion sensor to trigger lights when light levels below a certain threshold
-Motion | Trigger lights with motion
+Motion | Trigger lights on with motion
 No Motion | Turn lights off after set time
 
 ## Integrations
