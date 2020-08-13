@@ -162,6 +162,33 @@ For sending RF codes to the ZAP outlets.
 ### Zigbee
 For receiving data from the door sensor, simple motion sensor, and phillips hue remotes.
 
+## Notable Features
+
+### Away
+Alerts when away if motion is detected inside.
+
+### Sleep
+Internal control for when sleeping so things don't happen in the middle of the night that aren't supposed to.
+
+### States
+Implements [Nonbinary Presence Detection] for easy, yet powerful, presence detection.
+
+State | Purpose
+--- | ---
+home | In "home" zone, been 'just_arrived' or 'just_woke' for a set amount of time.
+just_left | Just left the "home" zone.
+away | Been 'just_left' for a set amount of time.
+just_arrived | Just entered the "home" zone.
+in_bed | Bedroom door just closed.
+sleeping | Been 'in_bed' for a set amount of time.
+just_woke | Bedroom door just opened.
+
+````
+home -> just_left -> away -> just_arrived -> home
+
+home -> in_bed -> sleeping -> just_woke -> home
+````
+
 [LIFX A19]: https://www.lifx.com/collections/lamps-and-pendants/products/lifx
 [Etekcity ZAP]: https://www.etekcity.com/product/100068.html
 [Phillips Hue RWL020]: https://www.philips-hue.com/en-us/p/hue-dimmer-switch/046677473372
@@ -169,3 +196,4 @@ For receiving data from the door sensor, simple motion sensor, and phillips hue 
 [Nest]: https://store.google.com/us/product/nest_learning_thermostat_3rd_gen?hl=en-US
 [Home Assistant Cloud by Nabu Casa]: https://www.nabucasa.com
 [Home Assistant]: https://www.home-assistant.io
+[Nonbinary Presence Detection]: https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/
