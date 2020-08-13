@@ -1,15 +1,21 @@
 # Home Assistant Configuration
 
-The goal of this setup is to create a home automation system that had no cloud dependancy.  After losing almost all services I used over the last year, I decided to DIY all of it and hopefully never have to deal with that again.  There are no hubs or outside controllers in this configuration except for [Home Assistant] itself.
+The goal of this setup is to create a home automation system that had no cloud dependancy.  After losing almost all cloud-only based services over the last year, I decided to DIY all of it and hopefully never have to deal with that again.  There are no hubs or outside controllers in this. Everything is controlled with a standard install of [Home Assistant] on a Raspberry Pi.
 
 Everything but the [Nest] thermostat is controlled locally and has no online requirement.
 
 Subscribed to [Home Assistant Cloud by Nabu Casa] for location tracking and easy remote access.
 
+## UI
+
+![hass-iphone-lights] | ![hass-iphone-outlets] |
+![hass-iphone-inside] | ![hass-iphone-outside] |
+![hass-ipad]
+
 ## Features
 
 ### Away
-Alerts when away if motion is detected inside. Also turns off all lights and sets thermostat in "eco" mode.
+Critical alerts when away if motion is detected inside. Also turns off all lights and sets thermostat in "eco" mode.
 
 ### Backup
 Automatically create snapshot each night for backup purposes.
@@ -18,7 +24,7 @@ Automatically create snapshot each night for backup purposes.
 Manual switches and controls in the event things go wrong.
 
 ### Sleep
-Internal control for when sleeping so things don't happen in the middle of the night that aren't supposed to.
+Internal control for when sleeping, so things don't happen in the middle of the night that aren't supposed to.
 
 ### States
 Implements [Nonbinary Presence Detection] for easy, yet powerful, presence detection.
@@ -221,7 +227,13 @@ Integrate Spotify and have music/podcasts play to bluetooth speaker.
 [Home Assistant Cloud by Nabu Casa]: https://www.nabucasa.com
 [Home Assistant]: https://www.home-assistant.io
 [Nonbinary Presence Detection]: https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/
-[hass-pi]: https://github.com/darthsebulba04/homeassistant/blob/master/rpi-hass.jpg
 [Raspberry Pi 4b]: https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
 [Nortek HUSBZB-1]: https://www.nortekcontrol.com/products/2gig/husbzb-1-gocontrol-quickstick-combo/
 [HiLetgo 433 Mhz Transmitter + Receiver]: https://www.instructables.com/id/RF-315433-MHz-Transmitter-receiver-Module-and-Ardu/
+
+[hass-pi]: https://github.com/darthsebulba04/homeassistant/blob/master/rpi-hass.jpg
+[hass-ipad]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-ipad.jpg
+[hass-iphone-lights]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-lights.jpg
+[hass-iphone-outlets]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-outlets.jpg
+[hass-iphone-inside]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-inside.jpg
+[hass-iphone-outside]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-outside.jpg
