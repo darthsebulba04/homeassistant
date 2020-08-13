@@ -1,6 +1,6 @@
 # Home Assistant Configuration
 
-The goal of this setup was to create a home automation system that had no cloud dependancy.  After losing almost all services I used over the last year, I decided to DIY all of it and hopefully never have to deal with that again.
+The goal of this setup is to create a home automation system that had no cloud dependancy.  After losing almost all services I used over the last year, I decided to DIY all of it and hopefully never have to deal with that again.  There are no hubs or outside controllers in this configuration except for [Home Assistant] itself.
 
 Everything but the [Nest] thermostat is controlled locally and has no online requirement.
 
@@ -11,9 +11,8 @@ Subscribed to [Home Assistant Cloud by Nabu Casa] for location tracking and easy
 
 - HUSBZB-1 USB Z-Wave+/Zigbee controller
 - HiLetgo 433 Mhz Transmitter + Receiver Kit
-
-- USB extension cable
 - Various color female-to-female jumper wires
+- USB extension cable
 
 ## Things
 ### [LIFX A19] 
@@ -33,7 +32,7 @@ _Chosen for the independant remote control and low cost._
 ### [Phillips Hue RWL020] Smart Dimmer Switch and Remote
 Great remotes for manually toggling lights and changing brightness. 
 
-_Chosen for it's many programmable options and portability._
+_Chosen for it's many button options and portability._
 - Count: 3x
 - Protocol: Zigbee 
 
@@ -169,3 +168,4 @@ For receiving data from the door sensor, simple motion sensor, and phillips hue 
 [ZOOZ ZSE40]: http://www.getzooz.com/zooz-zse40-4-in-1-sensor.html
 [Nest]: https://store.google.com/us/product/nest_learning_thermostat_3rd_gen?hl=en-US
 [Home Assistant Cloud by Nabu Casa]: https://www.nabucasa.com
+[Home Assistant]: https://www.home-assistant.io
