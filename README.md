@@ -49,6 +49,9 @@ home -> just_left -> away -> just_arrived -> home
 home -> in_bed -> sleeping -> just_woke -> home
 ````
 
+### YAML
+Very little yaml code written.  Ninty percent of all work done was done with the built in configuration editors.
+
 ## Hardware
 - [Raspberry Pi 4b] w/ 4GB RAM
 - [Nortek HUSBZB-1] USB Z-Wave+/Zigbee controller
