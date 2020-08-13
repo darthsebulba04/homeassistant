@@ -212,6 +212,12 @@ Pin | Use | Purpose
 18 | GPIO 24 | Recv data (yellow)
 20 | Ground | Recv ground (black)
 
+_Custom add-on created for "sniffing" the on/off codes needed to get this working._
+
+https://github.com/darthsebulba04/hassio-gpio-rf
+
+https://github.com/darthsebulba04/hassio-addons
+
 ### Zigbee
 For receiving data from the door sensor, simple motion sensor, and phillips hue remotes.
 
