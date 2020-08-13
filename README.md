@@ -10,7 +10,7 @@ Subscribed to [Home Assistant Cloud by Nabu Casa] for location tracking and easy
 - Raspberry Pi 4b w/ 4GB RAM
 
 - HUSBZB-1 USB Z-Wave+/Zigbee controller
-- HiLetgo 433M Transmitter + Receiver Kit
+- HiLetgo 433 Mhz Transmitter + Receiver Kit
 
 - USB extension cable
 - Various color female-to-female jumper wires
