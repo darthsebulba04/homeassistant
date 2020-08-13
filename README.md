@@ -106,6 +106,13 @@ DimUp | Increase LIFX brightness
 DimDown | Decrease LIFX brightness
 On (Long) | Start LIFX color swirl
 
+#### Sensor Functions
+Value | Function
+--- | ---
+Luminosity | Enable motion sensor to trigger lights when light levels below a certain threshold
+Motion | Trigger lights with motion
+No Motion | Turn lights off after set time
+
 ### Office
 - 2x [LIFX A19] (floor lamp, table lamp)
 - 1x [ZOOZ ZSE40]
@@ -119,6 +126,13 @@ Off | Turn LIFX bulbs off
 DimUp | Increase LIFX brightness
 DimDown | Decrease LIFX brightness
 On (Long) | Start LIFX color swirl
+
+#### Sensor Functions
+Value | Function
+--- | ---
+Luminosity | Enable motion sensor to trigger lights when light levels below a certain threshold
+Motion | Trigger lights with motion
+No Motion | Turn lights off after set time
 
 ## Integrations
 
@@ -140,7 +154,7 @@ For communication with Open Z-Wave Add-on.
 ### Nest
 For control of the Nest thermostat.
 
-### Open ZWave
+### Open Z-Wave
 For receiving data from the ZOOZ motion sensors.
 
 ### Raspberry Pi RF
