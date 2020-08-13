@@ -185,6 +185,9 @@ No Motion | Turn lights off after set time
 ### Circadian Lighting
 For keeping the color temp on the LIFX bulbs from messing with my sleep.
 
+### Home Assistant Community Store
+For easy install/updating of circadian lighting, sleek looking iOS theme, and various lovelace cards.
+
 ### iOS Mobile App
 For the location tracking and local/remote control.  Integrates perfectly with [Home Assistant Cloud by Nabu Casa].
 
