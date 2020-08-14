@@ -60,8 +60,8 @@ The following three add-ons are installed using the supervisor add-on store.
 ### GPIO RF
 This is an add-on I created to get the codes from the RF remote.
 
-You can add the following repository and install it as normal.
-```https://github.com/darthsebulba04/hassio-addons```
+You can add the following repository and install the add-on like all others.
+https://github.com/darthsebulba04/hassio-addons
 
 The only configuration necessary is to set the GPIO pin in the config and to disable protected mode.
 
@@ -75,19 +75,63 @@ Configuration of _OpenZWave_ requires setting the USB port and a network securit
 Once these two are running, go to your Configuration > Integrations and add _MQTT_ and _Open ZWave (beta)_.
 
 ### Zigbee
-Add the _Zigbee Home Automation_ like any other integration. It will walk you through setting/detecting the correct serial port.
+Add the _Zigbee Home Automation_ like any other under Configuration > Integrations. It will walk you through setting/detecting the correct serial port.
 
 ## Adding devices
+This section will outline how to add new devices of each type.
+
+Please note, discovery and pairing of Zigbee and Z-Wave devices sometimes takes a little time.  There are times where a device will add, but not all of it's sensors will be populated (like battery or temperature).  This usually resolves itself after a few minutes.
+
+Have patience during the process and everything should work out fine.  
 
 ### RF
+Fire up the _GPIO RF_ add-on and point the RF remote at the receiver.  You need to be CLOSE.
+
+You'll see a code and pulselength for each button press in the add-on's log.  I suggest making a spreadsheet to keep track of each button and to do one at a time.  It can get pretty confusing, fast, if you don't.
+
+The next part is where you'll have to write some YAML.  Open up your configuration.yaml (either via SSH or the file editor add-on) and add the following switch.
+
+```
+switch:
+  - platform: rpi_rf
+    gpio: <your gpio pin number>
+    switches:
+      <name>_1:
+        pulselength: <button 1 pulse length>
+        code_on: <button 1 on code>
+        code_off: <button 1 off code>
+```
+
+Add switches for each button you want to program.  Reference the official [rpi_rf integration page] for more details and other options.  
+
+Once all your switches are added, go to your Configuration > Server Controls and verify the config.  If everything checks, restart [Home Assistant] to get your new switches.
 
 ### Zigbee
+Adding Zigbee devices is probably the easist of the three.  
+
+Go into the _Zigbee Home Automation_ integration configuration and hit the plus in the bottom right corner.  This puts it in discovery mode.
+
+One at a time, put each sensor in pair mode according to the devices instructions.  If you look at the full log, you will be able to see what is going on.
+
+If you don't see anything and you know **for sure** you're putting the device in pair mode correctly, it's probable the sensor isn't supported.
+
+Adding support for a new device is outside the scope of this document. The official site, https://github.com/zigpy/zigpy , is a good starting point if you want to go down that rabbit hole.
 
 ### Z-Wave
+The _Open ZWave_ add-on has a nice GUI for managing devices.  You can access it from your side menu or the add-on itself.
 
+From the menu, select Open and click Start under the Remote OZWDaemon.  From there, select Add Node and your Z-Wave network is now able to discover new devices.
+
+One at a time, put each sensor in pair mode according to the devices instructions.  You should see messages in log when it starts working.
+
+## What now?
+Once you've added all your devices, you can start making all your automations and designing your lovelace ui.  Everyones needs and things are different, so I couldn't even begin to detail what you should do.  
+
+Just have fun with your new non-cloud dependant home automation system. :)
 
 [Home Assistant]: https://www.home-assistant.io/
 [installation guide]: https://www.home-assistant.io/getting-started/
+[rpi_rf integration page]: https://www.home-assistant.io/integrations/rpi_rf/
 
 [hass-pi]: https://github.com/darthsebulba04/homeassistant/blob/master/rpi-hass.jpg
 [rf-send]: https://cdn.instructables.com/ORIG/FU4/UJYA/HM8DG3Q3/FU4UJYAHM8DG3Q3.jpg
