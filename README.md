@@ -235,8 +235,6 @@ Push daily snapshots to BackBlaze B2 for online backup and recovery.
 ### Spotify
 Integrate Spotify and have music/podcasts play to bluetooth speaker.
 
-### Windy
-Create Windy integration for polling weather.
 
 [LIFX A19]: https://www.lifx.com/collections/lamps-and-pendants/products/lifx
 [Etekcity ZAP]: https://www.etekcity.com/product/100068.html
