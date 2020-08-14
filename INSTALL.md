@@ -18,7 +18,7 @@ I am using a Raspberry Pi 4b, but can use any Pi with the approprate GPIO pins t
 ## Making Pi
 Put together the Raspberry Pi per the documentation, including any heatsinks and fans you received, leaving the top off as you'll need access to the GPIO pins.
 
-Plug the HUSBZB-1 into one of the USB ports.
+Plug the HUSBZB-1 into one of the USB ports.  After putting it in it's final running location, plug the HUSBZB-1 into the USB extender and the extender into the Pi.  This will help eliminate interferance as it operates on the 2.4Ghz frequency.
 
 Leave the SD card out as you'll be needing it later to flash [Home Assistant] on.
 
@@ -27,7 +27,7 @@ Use the below wiring guide to plug in the RF hardware.
 
 The pins on the Pi are numbered and labeled per their specification and can be found in their manual.  The pins on the RF board are numbered left to right.
 
-NOTE: You can use any GPIO pin you want.  I just preferred to keep the cables mostly together for each component.
+NOTE: You can use any GPIO pin you want.  I just preferred to keep the cables mostly together for each component (and had to work around the fan).
 
 **Make sure you check the purpose below with the specification.  The wrong power pin can zap the Pi or RF board.**
 
@@ -37,7 +37,7 @@ NOTE: You can use any GPIO pin you want.  I just preferred to keep the cables mo
 Rpi Pin | RF Pin | Purpose
 --- | --- | ---
 17 | 1 | 3v3 power
-18 | 2 or 3| GPIO 24 (data)
+18 | 2 | GPIO 24 (data)
 20 | 4 | Ground
 
 ### Send
@@ -52,10 +52,10 @@ Rpi Pin | RF Pin | Purpose
 ## Installing Home Assistant
 Installing [Home Assistant] is as easy as following their [installation guide].
 
-It's pretty straight forward.
+It's pretty straight forward and well written.
 
 ## Installing Add-ons/integrations
-The following three add-ons are installed using the supervisor add-on store.
+The add-ons are installed using the supervisor add-on store and the integrations are added under Configuration > Integrations .
 
 ### GPIO RF
 This is an add-on I created to get the codes from the RF remote.
@@ -72,10 +72,10 @@ Only configuration of the _Mosquito broker_ is to make sure it's ports are open.
 
 Configuration of _OpenZWave_ requires setting the USB port and a network security key.  The add-on documentation is really good and I recommend reading it.
 
-Once these two are running, go to your Configuration > Integrations and add _MQTT_ and _Open ZWave (beta)_.
+Once these two are running, go to your integrations and add _MQTT_ and _Open ZWave (beta)_.
 
 ### Zigbee
-Add the _Zigbee Home Automation_ like any other under Configuration > Integrations. It will walk you through setting/detecting the correct serial port.
+Add the _Zigbee Home Automation_ like any other under integrations. It will walk you through setting/detecting the correct serial port.
 
 ## Adding devices
 This section will outline how to add new devices of each type.
@@ -106,6 +106,8 @@ Add switches for each button you want to program.  Reference the official [rpi_r
 
 Once all your switches are added, go to your Configuration > Server Controls and verify the config.  If everything checks, restart [Home Assistant] to get your new switches.
 
+NOTE: The on/off state of these switches doesn't save between reboots.
+
 ### Zigbee
 Adding Zigbee devices is probably the easist of the three.  
 
@@ -115,10 +117,10 @@ One at a time, put each sensor in pair mode according to the devices instruction
 
 If you don't see anything and you know **for sure** you're putting the device in pair mode correctly, it's probable the sensor isn't supported.
 
-Adding support for a new device is outside the scope of this document. The official site, https://github.com/zigpy/zigpy , is a good starting point if you want to go down that rabbit hole.
+Adding support for a new device is outside the scope of this document. The [zigpy official site] is a good starting point if you want to go down that rabbit hole.
 
 ### Z-Wave
-The _Open ZWave_ add-on has a nice GUI for managing devices.  You can access it from your side menu or the add-on itself.
+The _Open ZWave_ add-on has a QT GUI for managing devices.  You can access it from your side menu or the add-on itself.
 
 From the menu, select Open and click Start under the Remote OZWDaemon.  From there, select Add Node and your Z-Wave network is now able to discover new devices.
 
@@ -132,6 +134,7 @@ Just have fun with your new non-cloud dependant home automation system. :)
 [Home Assistant]: https://www.home-assistant.io/
 [installation guide]: https://www.home-assistant.io/getting-started/
 [rpi_rf integration page]: https://www.home-assistant.io/integrations/rpi_rf/
+[zigpy official site]: https://github.com/zigpy/zigpy
 
 [hass-pi]: https://github.com/darthsebulba04/homeassistant/blob/master/rpi-hass.jpg
 [rf-send]: https://cdn.instructables.com/ORIG/FU4/UJYA/HM8DG3Q3/FU4UJYAHM8DG3Q3.jpg
