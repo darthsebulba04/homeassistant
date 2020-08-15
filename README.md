@@ -6,6 +6,7 @@ Everything but the [Nest] thermostat is controlled locally and has no online req
 
 Subscribed to [Home Assistant Cloud by Nabu Casa] for location tracking and easy remote access.
 
+If this kind of setup interests you, I wrote up a basic [install] doc for how I accomplished this.
 ## UI
 ### iPhone
 ![hass-iphone-lights] ![hass-iphone-outlets]
@@ -235,7 +236,7 @@ Push daily snapshots to BackBlaze B2 for online backup and recovery.
 ### Spotify
 Integrate Spotify and have music/podcasts play to bluetooth speaker.
 
-
+[install]: INSTALL.md
 [LIFX A19]: https://www.lifx.com/collections/lamps-and-pendants/products/lifx
 [Etekcity ZAP]: https://www.etekcity.com/product/100068.html
 [Phillips Hue RWL020]: https://www.philips-hue.com/en-us/p/hue-dimmer-switch/046677473372
