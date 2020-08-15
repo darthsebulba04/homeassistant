@@ -115,7 +115,7 @@ Go into the _Zigbee Home Automation_ integration configuration and hit the plus 
 
 One at a time, put each sensor in pair mode according to the devices instructions.  If you look at the full log, you will be able to see what is going on.
 
-If you don't see anything and you know **for sure** you're putting the device in pair mode correctly, it's probable the sensor isn't supported.
+If you don't see anything and you know **for sure** you're putting the device in pair mode correctly, it's probable the sensor isn't supported or it implements its own variation of Zigbee. The latter is apparently common. 
 
 Adding support for a new device is outside the scope of this document. The [zigpy official site] is a good starting point if you want to go down that rabbit hole.
 
