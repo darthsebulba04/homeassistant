@@ -152,6 +152,7 @@ Off | Turn LIFX bulbs off
 DimUp | Increase LIFX brightness
 DimDown | Decrease LIFX brightness
 On (Long) | Start LIFX color swirl
+On (Again) | Turn auto timer off
 
 #### Sensor Functions
 Value | Function
@@ -173,6 +174,7 @@ Off | Turn LIFX bulbs off
 DimUp | Increase LIFX brightness
 DimDown | Decrease LIFX brightness
 On (Long) | Start LIFX color swirl
+On (Again) | Turn auto timer off
 
 #### Sensor Functions
 Value | Function
