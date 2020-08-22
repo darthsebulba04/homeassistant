@@ -45,11 +45,14 @@ just_arrived | Just entered the "home" zone.
 in_bed | Bedroom door just closed.
 sleeping | Been 'in_bed' for a set amount of time.
 just_woke | Bedroom door just opened.
+out | Out for a short time. Not fully "away".
 
 ````
 home -> just_left -> away -> just_arrived -> home
 
 home -> in_bed -> sleeping -> just_woke -> home
+
+home -> out -> just_arrived -> home
 ````
 
 ### YAML
@@ -135,7 +138,8 @@ _Chosen because I already had it._
 Button | Function
 --- | ---
 On | Enable "away" mode
-Off | Disable "away" mode
+DimUp | Enable "out" mode
+Off | Disable "away"/"out" mode
 
 ### Kitchen
 - 2x [Etekcity ZAP] (salt lamp, night light)
