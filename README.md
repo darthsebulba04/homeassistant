@@ -13,7 +13,7 @@ If this kind of setup interests you, I wrote up a basic [install] doc for how I 
 
 ![hass-iphone-inside] ![hass-iphone-outside] 
 
-![hass-iphone-battries]
+![hass-iphone-batteries]
 
 ![hass-iphone-actions]
 
@@ -22,6 +22,8 @@ If this kind of setup interests you, I wrote up a basic [install] doc for how I 
 
 ### MacOS
 ![hass-macos]
+
+* Powered by [Home Assistant Desktop]
 
 ## Features
 
@@ -274,6 +276,8 @@ Push daily snapshots to BackBlaze B2 for online backup and recovery.
 Integrate Spotify and have music/podcasts play to bluetooth speaker.
 
 [install]: INSTALL.md
+[Home Assistant Desktop]: https://github.com/mrvnklm/homeassistant-desktop
+
 [LIFX A19]: https://www.lifx.com/collections/lamps-and-pendants/products/lifx
 [Etekcity ZAP]: https://www.etekcity.com/product/100068.html
 [Phillips Hue RWL020]: https://www.philips-hue.com/en-us/p/hue-dimmer-switch/046677473372
