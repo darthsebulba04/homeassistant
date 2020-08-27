@@ -106,6 +106,13 @@ _Chosen for its sleek looks._
 - Count: 1
 - Protocol: wifi (cloud)
 
+### [Schlage BE469] Touchscreen Deadbolt
+Allows keyless entry.
+
+_Chosen because I already had it_
+- Count: 1
+- Protocol: Z-Wave
+
 ### Lowes 1116-S Door Sensor (discontinued)
 Open/close sensor. Also reports temperature.
 
@@ -268,6 +275,8 @@ Integrate Spotify and have music/podcasts play to bluetooth speaker.
 [Phillips Hue RWL020]: https://www.philips-hue.com/en-us/p/hue-dimmer-switch/046677473372
 [ZOOZ ZSE40]: http://www.getzooz.com/zooz-zse40-4-in-1-sensor.html
 [Nest]: https://store.google.com/us/product/nest_learning_thermostat_3rd_gen?hl=en-US
+[Schlage BE469]: https://www.schlage.com/en/home/faq.html?id=128433
+
 [Home Assistant Cloud by Nabu Casa]: https://www.nabucasa.com
 [Home Assistant]: https://www.home-assistant.io
 [Nonbinary Presence Detection]: https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/
