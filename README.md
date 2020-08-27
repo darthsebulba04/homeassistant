@@ -49,7 +49,7 @@ State | Purpose
 --- | ---
 home | In "home" zone or been 'just_arrived' or 'just_woke' for a set amount of time.
 just_left | Just left the "home" zone.
-away | Been 'just_left' for a set amount of time.
+away | Been 'just_left' or 'out' for a set amount of time.
 just_arrived | Just entered the "home" zone.
 in_bed | Bedroom door just closed.
 sleeping | Been 'in_bed' for a set amount of time.
@@ -61,7 +61,7 @@ home -> just_left -> away -> just_arrived -> home
 
 home -> in_bed -> sleeping -> just_woke -> home
 
-home -> out -> just_arrived -> home
+home -> out -> away -> just_arrived -> home
 ````
 
 ### YAML
