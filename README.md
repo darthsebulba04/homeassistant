@@ -23,8 +23,6 @@ If this kind of setup interests you, I wrote up a basic [install] doc for how I 
 ### MacOS
 ![hass-macos]
 
-* Powered by [Home Assistant Desktop]
-
 ## Features
 
 ### Away
