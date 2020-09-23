@@ -208,6 +208,9 @@ No Motion | Turn lights off after set time
 ### Home Assistant Community Store (HACS)
 For easy install/updating of various community add-ons and frontend enhancements.
 
+#### Battery State Card
+Nice card for listing the battery levels of all the sensors.
+
 #### Circadian Lighting
 For keeping the color temp on the LIFX bulbs from messing with my sleep.
 
@@ -217,14 +220,8 @@ Provides frontend tweaks.
 #### iOS Themes - Dark Mode and Light Mode
 Slick looking theme that makes [Home Assistant] look like a native application.
 
-#### OZW Network Card
-Visualizes all the OZW devices connected.
-
 #### Weather Card
 Cool weather card with animated icons.
-
-#### Zha Network Card
-Visualizes all the Zigbee devices connected.
 
 ### iOS Mobile App
 For the location tracking and local/remote control.  Integrates perfectly with [Home Assistant Cloud by Nabu Casa].
