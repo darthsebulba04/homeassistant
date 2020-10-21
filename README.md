@@ -77,7 +77,6 @@ Very little yaml code written.  Ninty percent of all work done was done with the
 - [HiLetgo 433 Mhz Transmitter + Receiver] Kit
 - Various color female-to-female jumper wires
 - USB extension cable
-- A few paperclips
 
 ![hass-pi]
 
