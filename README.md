@@ -205,8 +205,8 @@ Button | Function
 --- | ---
 On | Turn LIFX bulbs on
 Off | Turn LIFX bulbs off
-DimUp | Increase LIFX brightness
-DimDown | Decrease LIFX brightness
+DimUp | N/A
+DimDown | N/A
 On (Long) | Start LIFX color swirl
 On (Again) | Turn auto timer off
 
@@ -227,9 +227,6 @@ Nice card for listing the battery levels of all the sensors.
 
 #### Circadian Lighting
 For keeping the color temp on the LIFX bulbs from messing with my sleep.
-
-#### Custom Header
-Provides frontend tweaks.
 
 #### iOS Themes - Dark Mode and Light Mode
 Slick looking theme that makes [Home Assistant] look like a native application.
@@ -253,7 +250,7 @@ For communication with Open Z-Wave Add-on.
 For control of the Nest thermostat.
 
 ### Open Z-Wave
-For receiving data from the ZOOZ motion sensors.
+For receiving data from the ZOOZ motion sensors, smoke detector, and deadbolt.
 
 ### Raspberry Pi RF
 For sending RF codes to the ZAP outlets.
@@ -277,9 +274,6 @@ https://github.com/darthsebulba04/hassio-addons
 For receiving data from the door sensor, simple motion sensor, and phillips hue remotes.
 
 ## Future Projects
-
-### BackBlaze
-Push daily snapshots to BackBlaze B2 for online backup and recovery.
 
 ### Spotify
 Integrate Spotify and have music/podcasts play to bluetooth speaker.
