@@ -25,6 +25,9 @@ If this kind of setup interests you, I wrote up a basic [install] doc for how I 
 
 ## Features
 
+### Alarm Clock
+Turn bedroom lights on at a specified time in order to wake up.
+
 ### Away
 Critical alerts when away if motion is detected inside. Also turns off all lights and sets thermostat in "eco" mode.
 
@@ -33,6 +36,9 @@ Automatically create snapshot each night for backup purposes.
 
 ### Do Not Disturb
 Ability to manually suppress alerts if I don't want to be disturbed.
+
+### Emergency
+Turn all lights on and strobe color lights when something critical occures.
 
 ### Manual
 Manual switches and controls in the event things go wrong.
@@ -71,6 +77,7 @@ Very little yaml code written.  Ninty percent of all work done was done with the
 - [HiLetgo 433 Mhz Transmitter + Receiver] Kit
 - Various color female-to-female jumper wires
 - USB extension cable
+- A few paperclips
 
 ![hass-pi]
 
@@ -102,6 +109,13 @@ Captures motion, temperature, humidity, and luminosity levels.
 _Chosen for all of it's sensor capabilities._
 - Count: 2x
 - Protocol: Z-Wave+
+
+### [First Alert ZCOMBO-G] Z-Wave Enabbled Smoke & CO2 Detector
+Detects smoke & co2.
+
+_Chosen for it's Z-Wave compatability._
+- Count: 1x
+- Protocol: Z-Wave
 
 ### [Nest] 3rd Gen Thermostat
 Controls the indoor temperature.  
@@ -163,14 +177,15 @@ Off | Disable "away"/"out" mode
 - 2x [LIFX A19] (floor lamp, table lamp)
 - 1x [ZOOZ ZSE40]
 - 1x [Phillips Hue RWL020]
+- 1x [First Alert ZCOMBO-G] (outside bedroom door)
 
 #### Remote Functions
 Button | Function
 --- | ---
 On | Turn LIFX bulbs on
 Off | Turn LIFX bulbs off
-DimUp | Increase LIFX brightness
-DimDown | Decrease LIFX brightness
+DimUp | Turn outlets on
+DimDown | Turn outlets off
 On (Long) | Start LIFX color swirl
 On (Again) | Turn auto timer off
 
@@ -279,6 +294,7 @@ Integrate Spotify and have music/podcasts play to bluetooth speaker.
 [ZOOZ ZSE40]: http://www.getzooz.com/zooz-zse40-4-in-1-sensor.html
 [Nest]: https://store.google.com/us/product/nest_learning_thermostat_3rd_gen?hl=en-US
 [Schlage BE469]: https://www.schlage.com/en/home/faq.html?id=128433
+[First Alert ZCOMBO-G]: https://www.firstalertstore.com/store/products/z-wave-smoke-and-carbon-monoxide-alarm-zcombo-g.htm
 
 [Home Assistant Cloud by Nabu Casa]: https://www.nabucasa.com
 [Home Assistant]: https://www.home-assistant.io
