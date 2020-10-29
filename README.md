@@ -9,6 +9,8 @@ Subscribed to [Home Assistant Cloud by Nabu Casa] for location tracking and easy
 If this kind of setup interests you, I wrote up a basic [install] doc for how I accomplished this.
 ## UI
 ### iPhone
+![hass-iphone-alarmclock] ![hass-iphone-emergency]
+
 ![hass-iphone-lights] ![hass-iphone-outlets]
 
 ![hass-iphone-inside] ![hass-iphone-outside] 
@@ -298,6 +300,8 @@ Integrate Spotify and have music/podcasts play to bluetooth speaker.
 
 [hass-pi]: https://github.com/darthsebulba04/homeassistant/blob/master/rpi-hass.jpg
 [hass-ipad]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-ipad.jpg
+[hass-iphone-alarmclock]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-alarmclock.jpg
+[hass-iphone-emergency]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-emergency.jpg
 [hass-iphone-lights]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-lights.jpg
 [hass-iphone-outlets]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-outlets.jpg
 [hass-iphone-inside]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-inside.jpg
