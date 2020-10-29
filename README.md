@@ -118,6 +118,13 @@ _Chosen for it's Z-Wave compatability._
 - Count: 1x
 - Protocol: Z-Wave
 
+### [Centralite 3323-C] Micro Door Sensor
+Detects if a door/window is opened or closed.
+
+_Chosen for the small size._
+- Count: 2x
+- Protocol: Zigbee
+
 ### [Nest] 3rd Gen Thermostat
 Controls the indoor temperature.  
 
@@ -160,6 +167,7 @@ _Chosen because I already had it._
 
 ### Entry
 - 1x [Phillips Hue RWL020]
+- 1x [Centralite 3323-C]
 - 1x Lowes 3326-L
 - 1x [Nest]
 
@@ -179,6 +187,7 @@ Off | Disable "away"/"out" mode
 - 1x [ZOOZ ZSE40]
 - 1x [Phillips Hue RWL020]
 - 1x [First Alert ZCOMBO-G] (outside bedroom door)
+- 1x [Centralite 3323-C]
 
 #### Remote Functions
 Button | Function
@@ -290,6 +299,7 @@ Integrate Spotify and have music/podcasts play to bluetooth speaker.
 [Nest]: https://store.google.com/us/product/nest_learning_thermostat_3rd_gen?hl=en-US
 [Schlage BE469]: https://www.schlage.com/en/home/faq.html?id=128433
 [First Alert ZCOMBO-G]: https://www.firstalertstore.com/store/products/z-wave-smoke-and-carbon-monoxide-alarm-zcombo-g.htm
+[Centralite 3323-C]: https://centralite.com/products/micro-door-sensor
 
 [Home Assistant Cloud by Nabu Casa]: https://www.nabucasa.com
 [Home Assistant]: https://www.home-assistant.io
