@@ -286,10 +286,14 @@ For receiving data from the door sensor, simple motion sensor, and phillips hue 
 
 ## Future Projects
 
+### [ESP8266]
+Custom built sensors to do a wide array of things.
+
 ### Spotify
 Integrate Spotify and have music/podcasts play to bluetooth speaker.
 
 [install]: INSTALL.md
+[ESP8266]: ESP8266.md
 [Home Assistant Desktop]: https://github.com/mrvnklm/homeassistant-desktop
 
 [LIFX A19]: https://www.lifx.com/collections/lamps-and-pendants/products/lifx
