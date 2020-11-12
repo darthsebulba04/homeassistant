@@ -236,9 +236,6 @@ For easy install/updating of various community add-ons and frontend enhancements
 #### Battery State Card
 Nice card for listing the battery levels of all the sensors.
 
-#### Circadian Lighting
-For keeping the color temp on the LIFX bulbs from messing with my sleep.
-
 #### iOS Themes - Dark Mode and Light Mode
 Slick looking theme that makes [Home Assistant] look like a native application.
 
@@ -256,6 +253,9 @@ For the weather.
 
 ### MQTT
 For communication with Open Z-Wave Add-on.
+
+### Multiple Entity Row
+Custom card for showing multiple entity values in the same row.  A must have for compact designs.
 
 ### Nest
 For control of the Nest thermostat.
