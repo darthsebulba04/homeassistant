@@ -13,7 +13,7 @@ If this kind of setup interests you, I wrote up a basic [install] doc for how I 
 
 ![hass-iphone-lights] ![hass-iphone-outlets]
 
-![hass-iphone-inside] ![hass-iphone-outside] 
+![hass-iphone-temps] ![hass-iphone-misc] 
 
 ![hass-iphone-batteries]
 
@@ -322,4 +322,6 @@ Integrate Spotify and have music/podcasts play to bluetooth speaker.
 [hass-iphone-outside]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-outside.jpg
 [hass-iphone-batteries]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-batteries.jpg
 [hass-iphone-actions]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-actions.jpg
+[hass-iphone-temps]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-temps.jpg
+[hass-iphone-misc]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-misc.jpg
 [hass-macos]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-macos.jpg
