@@ -241,6 +241,12 @@ Nice card for listing the battery levels of all the sensors.
 #### iOS Themes - Dark Mode and Light Mode
 Slick looking theme that makes [Home Assistant] look like a native application.
 
+#### Multiple Entity Row
+Custom card for showing multiple entity values in the same row.  A must have for compact designs.
+
+#### RGB Color Card
+For the color selection on the lifx light controls.
+
 #### Weather Card
 Cool weather card with animated icons.
 
@@ -255,9 +261,6 @@ For the weather.
 
 ### MQTT
 For communication with Open Z-Wave Add-on.
-
-### Multiple Entity Row
-Custom card for showing multiple entity values in the same row.  A must have for compact designs.
 
 ### Nest
 For control of the Nest thermostat.
