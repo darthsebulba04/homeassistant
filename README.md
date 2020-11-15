@@ -20,10 +20,12 @@ If this kind of setup interests you, I wrote up a basic [install] doc for how I 
 ![hass-iphone-actions]
 
 ### iPad
-![hass-ipad]
+![hass-ipad-home]
 
 ### MacOS
-![hass-macos]
+![hass-macos-home]
+
+![hass-macos-temps]
 
 ## Features
 
@@ -313,15 +315,14 @@ Integrate Spotify and have music/podcasts play to bluetooth speaker.
 [HiLetgo 433 Mhz Transmitter + Receiver]: https://www.instructables.com/id/RF-315433-MHz-Transmitter-receiver-Module-and-Ardu/
 
 [hass-pi]: https://github.com/darthsebulba04/homeassistant/blob/master/rpi-hass.jpg
-[hass-ipad]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-ipad.jpg
+[hass-ipad-home]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-ipad-home.jpg
 [hass-iphone-alarmclock]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-alarmclock.jpg
 [hass-iphone-emergency]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-emergency.jpg
 [hass-iphone-lights]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-lights.jpg
 [hass-iphone-outlets]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-outlets.jpg
-[hass-iphone-inside]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-inside.jpg
-[hass-iphone-outside]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-outside.jpg
 [hass-iphone-batteries]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-batteries.jpg
 [hass-iphone-actions]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-actions.jpg
 [hass-iphone-temps]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-temps.jpg
 [hass-iphone-misc]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-misc.jpg
-[hass-macos]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-macos.jpg
+[hass-macos-home]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-macos-home.jpg
+[hass-macos-temps]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-macos-temps.jpg
