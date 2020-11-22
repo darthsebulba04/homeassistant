@@ -155,6 +155,18 @@ _Chosen because I already had it._
 - Count: 1x
 - Protocol: Zigbee
 
+## Sensors
+
+### Plant Moisture Sensor
+Returns a value between 0 to 1 with 1 being dry.
+
+![sensor-plant-moisture]
+
+### BME280
+Using i2c, returns temperature, humidity, and barometric pressure.
+
+![sensor-bme280]
+
 ## Areas
 
 ### Bathroom
@@ -230,7 +242,33 @@ Luminosity | Enable motion sensor to trigger lights when light levels below a ce
 Motion | Trigger lights on with motion
 No Motion | Turn lights off after set time
 
+### Porch
+- 1x ESP8266 NodeMCUv2
+  - 1x BME280 Temp/Humidity/Pressure Sensor
+    ESP | Sensor
+    --- | ---
+    3v3 | VCC
+    GND | GND
+    D1 | SCL
+    D2 | SDA
+  - 1x Soil Moisture Sensor
+    ESP | Sensor
+    --- | ---
+    3v3 | VCC
+    GND | GND
+    A0 | AO
+- 1x ESP8266 NodeMCUv2
+  - 1x Soil Moisture Sensor
+    ESP | Sensor
+    --- | ---
+    3v3 | VCC
+    GND | GND
+    A0 | AO
+
 ## Integrations
+
+### ESPHome
+For easy programming of, and communication with, the ESP8266 devices and attached sensors.
 
 ### Home Assistant Community Store (HACS)
 For easy install/updating of various community add-ons and frontend enhancements.
@@ -291,9 +329,6 @@ For receiving data from the door sensor, simple motion sensor, and phillips hue 
 
 ## Future Projects
 
-### [ESP8266]
-Custom built sensors to do a wide array of things.
-
 ### Spotify
 Integrate Spotify and have music/podcasts play to bluetooth speaker.
 
@@ -316,6 +351,9 @@ Integrate Spotify and have music/podcasts play to bluetooth speaker.
 [Raspberry Pi 4b]: https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
 [Nortek HUSBZB-1]: https://www.nortekcontrol.com/products/2gig/husbzb-1-gocontrol-quickstick-combo/
 [HiLetgo 433 Mhz Transmitter + Receiver]: https://www.instructables.com/id/RF-315433-MHz-Transmitter-receiver-Module-and-Ardu/
+
+[sensor-plant-moisture]: http://www.yourduino.com/sunshop/images/products/large_366_SoilMoisture1-450.jpg
+[sensor-bme280]: https://camo.githubusercontent.com/42ffcb8ff3d3625686aef1e1ed29dde44262ea145efb7f4854ce40a438c8cae7/687474703a2f2f692e65626179696d672e636f6d2f696d616765732f672f52576741414f5377492d4257494f42512f732d6c3330302e6a7067
 
 [hass-pi]: https://github.com/darthsebulba04/homeassistant/blob/master/rpi-hass.jpg
 [hass-ipad-home]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-ipad-home.jpg
