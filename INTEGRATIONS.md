@@ -1,47 +1,47 @@
-## Integrations
+# Integrations
 
-### [ESPHome](ESPHOME.md)
+## [ESPHome](ESPHOME.md)
 For easy programming of, and communication with, the ESP8266 devices and attached sensors.
 
 Check out [ESPHOME.md](ESPHOME.md) for my custom sensors.
 
-### Home Assistant Community Store (HACS)
+## Home Assistant Community Store (HACS)
 For easy install/updating of various community add-ons and frontend enhancements.
 
-#### Battery State Card
+### Battery State Card
 Nice card for listing the battery levels of all the sensors.
 
-#### iOS Themes - Dark Mode and Light Mode
+### iOS Themes - Dark Mode and Light Mode
 Slick looking theme that makes [Home Assistant] look like a native application.
 
-#### Multiple Entity Row
+### Multiple Entity Row
 Custom card for showing multiple entity values in the same row.  A must have for compact designs.
 
-#### RGB Color Card
+### RGB Color Card
 For the color selection on the lifx light controls.
 
-#### Weather Card
+### Weather Card
 Cool weather card with animated icons.
 
-### iOS Mobile App
+## iOS Mobile App
 For the location tracking and local/remote control.  Integrates perfectly with [Home Assistant Cloud by Nabu Casa].
 
-### LIFX
+## LIFX
 For control of the LIFX bulbs.
 
-### Met.no
+## Met.no
 For the weather.
 
-### MQTT
+## MQTT
 For communication with Open Z-Wave Add-on.
 
-### Nest
+## Nest
 For control of the Nest thermostat.
 
-### Open Z-Wave
+## Open Z-Wave
 For receiving data from the ZOOZ motion sensors, smoke detector, and deadbolt.
 
-### Raspberry Pi RF
+## Raspberry Pi RF
 For sending RF codes to the ZAP outlets.
 
 Pin | Use | Purpose
@@ -59,5 +59,7 @@ https://github.com/darthsebulba04/hassio-gpio-rf
 
 https://github.com/darthsebulba04/hassio-addons
 
-### Zigbee
+## Zigbee
 For receiving data from the door sensor, simple motion sensor, and phillips hue remotes.
+
+[Home Assistant Cloud by Nabu Casa]: https://www.nabucasa.com
