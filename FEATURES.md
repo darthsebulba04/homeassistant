@@ -1,27 +1,27 @@
-## Features
+# Features
 
-### Alarm Clock
+## Alarm Clock
 Turn bedroom lights on at a specified time in order to wake up.
 
-### Away
+## Away
 Critical alerts when away if motion is detected inside. Also turns off all lights and sets thermostat in "eco" mode.
 
-### Backup
+## Backup
 Automatically create snapshot each night for backup purposes.
 
-### Do Not Disturb
+## Do Not Disturb
 Ability to manually suppress alerts if I don't want to be disturbed.
 
-### Emergency
+## Emergency
 Turn all lights on and strobe color lights when something critical occures.
 
-### Manual
+## Manual
 Manual switches and controls in the event things go wrong.
 
-### Sleep
+## Sleep
 Internal control for when sleeping, so things don't happen in the middle of the night that aren't supposed to.
 
-### States
+## States
 Implements [Nonbinary Presence Detection] for easy, yet powerful, presence detection.
 
 State | Purpose
