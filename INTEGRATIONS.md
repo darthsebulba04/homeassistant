@@ -1,7 +1,9 @@
 ## Integrations
 
-### ESPHome
+### [ESPHome](ESPHOME.md)
 For easy programming of, and communication with, the ESP8266 devices and attached sensors.
+
+Check out [ESPHOME.md](ESPHOME.md) for my custom sensors.
 
 ### Home Assistant Community Store (HACS)
 For easy install/updating of various community add-ons and frontend enhancements.
