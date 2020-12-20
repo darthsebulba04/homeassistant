@@ -1,11 +1,11 @@
-## Sensors
+# Sensors
 
-### Plant Moisture Sensor
+## Plant Moisture Sensor
 Returns a value between 0 to 1 with 1 being dry.
 
 ![sensor-plant-moisture]
 
-### BME280
+## BME280
 Using i2c, returns temperature, humidity, and barometric pressure.
 
 ![sensor-bme280]
