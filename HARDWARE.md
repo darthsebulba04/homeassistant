@@ -8,3 +8,7 @@
 ![hass-pi]
 
 [hass-pi]: https://github.com/darthsebulba04/homeassistant/blob/master/rpi-hass.jpg
+
+[Raspberry Pi 4b]: https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
+[Nortek HUSBZB-1]: https://www.nortekcontrol.com/products/2gig/husbzb-1-gocontrol-quickstick-combo/
+[HiLetgo 433 Mhz Transmitter + Receiver]: https://www.instructables.com/id/RF-315433-MHz-Transmitter-receiver-Module-and-Ardu/
