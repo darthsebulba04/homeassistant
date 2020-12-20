@@ -1,4 +1,4 @@
-## Future Projects
+# Future Projects
 
-### Spotify
+## Spotify
 Integrate Spotify and have music/podcasts play to bluetooth speaker.
