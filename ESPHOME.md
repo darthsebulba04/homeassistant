@@ -1,7 +1,7 @@
 ## ESPHome
 
 ## Projects
-[ESP8266 NodeMCU ESP-12E]
+![nodemcu-esp8266]
 
 ### Soil Moisture Sensor
 ![sensor-plant-moisture]
@@ -43,10 +43,11 @@ D2 | SDA
 [RC522 RFID RF IC Card Sensor]
 
 
-[ESP8266 NodeMCU ESP-12E]: https://www.amazon.com/KeeYees-Internet-Development-Wireless-Compatible/dp/B07HF44GBT
 
 [Waterproof Plastic Electric Project Case]: https://www.amazon.com/a14061200ux0363-Waterproof-Electric-Junction-55x35x15mm/dp/B00VY9LSSY
 [Battery Holder]: https://www.amazon.com/Pack-Battery-Holder-Bundle-QTEATAK/dp/B07WY3VMNN
+
+[nodemcu-esp8266]: https://www.make-it.ca/wp-content/uploads/2019/09/nodemcu-pinout-functions.jpg
 
 [sensor-plant-moisture]: http://www.yourduino.com/sunshop/images/products/large_366_SoilMoisture1-450.jpg
 [sensor-bme280]: https://camo.githubusercontent.com/42ffcb8ff3d3625686aef1e1ed29dde44262ea145efb7f4854ce40a438c8cae7/687474703a2f2f692e65626179696d672e636f6d2f696d616765732f672f52576741414f5377492d4257494f42512f732d6c3330302e6a7067
