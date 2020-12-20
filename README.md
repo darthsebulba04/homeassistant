@@ -12,7 +12,6 @@ If this kind of setup interests you, I wrote up a basic [install](INSTALL.md) do
 2. [Features](FEATURES.md)
 3. [Hardware](HARDWARE.md)
 4. [Things](THINGS.md)
-    1. [Sensors](SENSORS.md)
 5. [Areas](AREAS.md)
 6. [Integrations](INTEGRATIONS.md)
     1. [ESPHOME](ESPHOME.md)
