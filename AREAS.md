@@ -8,7 +8,6 @@
 - 1x Lowes 1116-S
 
 ### Dining Room
-- 1x [Etekcity ZAP] (floor lamp)
 
 ### Entry
 - 1x [Phillips Hue RWL020]
@@ -23,11 +22,14 @@ On | Enable "away" mode
 DimUp | Enable "out" mode
 Off | Disable "away"/"out" mode
 
+### Lab
+Area for storing works in progress
+
 ### Kitchen
-- 2x [Etekcity ZAP] (salt lamp, night light)
+- 3x [Etekcity ZAP] (salt lamp, 2x night light)
 
 ### Living Room
-- 2x [Etekcity ZAP] (salt lamp, normal table lamp)
+- 1x [Etekcity ZAP] (salt lamp)
 - 2x [LIFX A19] (floor lamp, table lamp)
 - 1x [ZOOZ ZSE40]
 - 1x [Phillips Hue RWL020]
@@ -39,10 +41,8 @@ Button | Function
 --- | ---
 On | Turn LIFX bulbs on
 Off | Turn LIFX bulbs off
-DimUp | Turn outlets on
-DimDown | Turn outlets off
-On (Long) | Start LIFX color swirl
-On (Again) | Turn auto timer off
+DimUp | Turn LIFX brightness up
+DimDown | Turn LIFX brightness down
 
 #### Sensor Functions
 Value | Function
@@ -61,10 +61,8 @@ Button | Function
 --- | ---
 On | Turn LIFX bulbs on
 Off | Turn LIFX bulbs off
-DimUp | N/A
-DimDown | N/A
-On (Long) | Start LIFX color swirl
-On (Again) | Turn auto timer off
+DimUp | Turn LIFX brightness up
+DimDown | Turn LIFX brightness down
 
 #### Sensor Functions
 Value | Function
@@ -74,27 +72,7 @@ Motion | Trigger lights on with motion
 No Motion | Turn lights off after set time
 
 ### Porch
-- 1x ESP8266 NodeMCUv2
-  - 1x BME280 Temp/Humidity/Pressure Sensor
-    ESP | Sensor
-    --- | ---
-    3v3 | VCC
-    GND | GND
-    D1 | SCL
-    D2 | SDA
-  - 1x Soil Moisture Sensor
-    ESP | Sensor
-    --- | ---
-    3v3 | VCC
-    GND | GND
-    A0 | AO
-- 1x ESP8266 NodeMCUv2
-  - 1x Soil Moisture Sensor
-    ESP | Sensor
-    --- | ---
-    3v3 | VCC
-    GND | GND
-    A0 | AO
+- 2x [ESPHome Plant Sensor](ESPHOME.md#plant-sensor)
     
 [LIFX A19]: https://www.lifx.com/collections/lamps-and-pendants/products/lifx
 [Etekcity ZAP]: https://www.etekcity.com/product/100068.html
