@@ -1,5 +1,7 @@
 ## Hardware
-- [Raspberry Pi 4b] w/ 4GB RAM + 32GB SD card
+- [Raspberry Pi 4b] w/ 4GB RAM
+  - Samsung EVO 860 250GB SATA III
+  - USB 3 to SATA III Adapter
 - [Nortek HUSBZB-1] USB Z-Wave+/Zigbee controller
 - [HiLetgo 433 Mhz Transmitter + Receiver] Kit
 - Various color female-to-female jumper wires
