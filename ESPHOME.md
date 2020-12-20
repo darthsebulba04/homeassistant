@@ -4,27 +4,33 @@
 [ESP8266 NodeMCU ESP-12E]
 
 ### Plant Sensor
-[Plant Sensor]
+![sensor-plant-moisture]
+
+This sensor provides soil moisture levels.  It has two modes. Digital which provides 0 or 1 depending on the moisture level or a value between 0 and 1 as a more accurate percentage of the moisture.
 
 1x ESP8266 NodeMCUv2
-  - 1x Soil Moisture Sensor
-    ESP | Sensor
-    --- | ---
-    3v3 | VCC
-    GND | GND
-    A0 | AO
+
+1x Soil Moisture Sensor
+ESP | Sensor
+--- | ---
+3v3 | VCC
+GND | GND
+A0 | AO
 
 ### Temperature Sensor
-[BMP280 Digital 5V Temperature Humidity Sensor]
+![sensor-bme280]
+
+This sensor provides temperature, humidity, and barometric pressure.
 
 1x ESP8266 NodeMCUv2
-  - 1x BME280 Temp/Humidity/Pressure Sensor
-    ESP | Sensor
-    --- | ---
-    3v3 | VCC
-    GND | GND
-    D1 | SCL
-    D2 | SDA
+
+1x BME280 Temp/Humidity/Pressure Sensor
+ESP | Sensor
+--- | ---
+3v3 | VCC
+GND | GND
+D1 | SCL
+D2 | SDA
     
 ### Light Sensor
 
@@ -47,9 +53,6 @@
 
 [Waterproof Plastic Electric Project Case]: https://www.amazon.com/a14061200ux0363-Waterproof-Electric-Junction-55x35x15mm/dp/B00VY9LSSY
 [Battery Holder]: https://www.amazon.com/Pack-Battery-Holder-Bundle-QTEATAK/dp/B07WY3VMNN
-[LiFePo4 650mAh Battery]: https://www.amazon.com/Shockli-LiFePo4-Phosphate-Rechargeable-Batteries/dp/B07RGQX6W7
-[3.5mm Male Plug to Bare Wire]: https://www.amazon.com/Replacement-Connector-Headphone-Earphone-Microphone/dp/B08DR4K78X
 
-[Plant Sensor]: https://www.amazon.com/KeeYees-Sensitivity-Moisture-Watering-Manager/dp/B07QXZC8TQ
-[BMP280 Digital 5V Temperature Humidity Sensor]: https://www.amazon.com/KeeYees-Temperature-Humidity-Atmospheric-Barometric/dp/B07KYJNFMD
-[RC522 RFID RF IC Card Sensor]: https://www.amazon.com/DaFuRui-Sensor-Module-Compatible-Arduino/dp/B081YPV746
+[sensor-plant-moisture]: http://www.yourduino.com/sunshop/images/products/large_366_SoilMoisture1-450.jpg
+[sensor-bme280]: https://camo.githubusercontent.com/42ffcb8ff3d3625686aef1e1ed29dde44262ea145efb7f4854ce40a438c8cae7/687474703a2f2f692e65626179696d672e636f6d2f696d616765732f672f52576741414f5377492d4257494f42512f732d6c3330302e6a7067
