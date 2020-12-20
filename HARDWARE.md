@@ -1,4 +1,5 @@
-## Hardware
+# Hardware
+
 - [Raspberry Pi 4b] w/ 4GB RAM
   - Samsung EVO 860 250GB SATA III
   - USB 3 to SATA III Adapter
