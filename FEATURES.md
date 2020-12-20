@@ -45,3 +45,5 @@ home -> out -> away -> just_arrived -> home
 
 ### YAML
 Very little yaml code written.  Ninty percent of all work done was done with the built in configuration editors.
+
+[Nonbinary Presence Detection]: https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/
