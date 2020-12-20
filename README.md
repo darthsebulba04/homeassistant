@@ -6,7 +6,7 @@ Everything but the [Nest] thermostat is controlled locally and has no online req
 
 Subscribed to [Home Assistant Cloud by Nabu Casa] for location tracking and easy remote access.
 
-If this kind of setup interests you, I wrote up a basic [install] doc for how I accomplished this.
+If this kind of setup interests you, I wrote up a basic [install](INSTALL.md) doc for how I accomplished this.
 
 1. [UI](UI.md)
 2. [Features](FEATURES.md)
@@ -16,9 +16,5 @@ If this kind of setup interests you, I wrote up a basic [install] doc for how I 
 6. [Integrations](INTEGRATIONS.md)
 7. [Future](FUTURE.md)
 
-[install]: INSTALL.md
-[ESP8266]: ESP8266.md
-
 [Home Assistant Cloud by Nabu Casa]: https://www.nabucasa.com
 [Home Assistant]: https://www.home-assistant.io
-
