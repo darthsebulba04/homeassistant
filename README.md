@@ -8,9 +8,17 @@ Subscribed to [Home Assistant Cloud by Nabu Casa] for location tracking and easy
 
 If this kind of setup interests you, I wrote up a basic [install] doc for how I accomplished this.
 
+1. [UI](UI.md)
+2. [Features](FEATURES.md)
+3. [Hardware](HARDWARE.md)
+4. [Things](THINGS.md)
+5. [Sensors](SENSORS.md)
+6. [Integrations](INTEGRATIONS.md)
+7. [Future](FUTURE.md)
+
 [install]: INSTALL.md
 [ESP8266]: ESP8266.md
 
 [Home Assistant Cloud by Nabu Casa]: https://www.nabucasa.com
 [Home Assistant]: https://www.home-assistant.io
-[Nonbinary Presence Detection]: https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/
+
