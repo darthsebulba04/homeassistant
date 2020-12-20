@@ -3,28 +3,22 @@
 ## Projects
 [ESP8266 NodeMCU ESP-12E]
 
-### Plant Sensor
+### Soil Moisture Sensor
 ![sensor-plant-moisture]
 
 This sensor provides soil moisture levels.  It has two modes. Digital which provides 0 or 1 depending on the moisture level or a value between 0 and 1 as a more accurate percentage of the moisture.
 
-1x ESP8266 NodeMCUv2
-
-1x Soil Moisture Sensor
 ESP | Sensor
 --- | ---
 3v3 | VCC
 GND | GND
 A0 | AO
 
-### Temperature Sensor
+### BME280 Temperature/Humidity/Pressure Sensor
 ![sensor-bme280]
 
 This sensor provides temperature, humidity, and barometric pressure.
 
-1x ESP8266 NodeMCUv2
-
-1x BME280 Temp/Humidity/Pressure Sensor
 ESP | Sensor
 --- | ---
 3v3 | VCC
