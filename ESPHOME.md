@@ -3,12 +3,29 @@
 ## Projects
 [ESP8266 NodeMCU ESP-12E]
 
-### Plant Monitor
+### Plant Sensor
 [Plant Sensor]
+
+1x ESP8266 NodeMCUv2
+  - 1x Soil Moisture Sensor
+    ESP | Sensor
+    --- | ---
+    3v3 | VCC
+    GND | GND
+    A0 | AO
 
 ### Temperature Sensor
 [BMP280 Digital 5V Temperature Humidity Sensor]
 
+1x ESP8266 NodeMCUv2
+  - 1x BME280 Temp/Humidity/Pressure Sensor
+    ESP | Sensor
+    --- | ---
+    3v3 | VCC
+    GND | GND
+    D1 | SCL
+    D2 | SDA
+    
 ### Light Sensor
 
 
