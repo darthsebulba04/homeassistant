@@ -15,6 +15,7 @@ If this kind of setup interests you, I wrote up a basic [install](INSTALL.md) do
 5. [Areas](AREAS.md)
 6. [Integrations](INTEGRATIONS.md)
     1. [ESPHome](ESPHOME.md)
+    2. [HACS](HACS.md)
 7. [Future](FUTURE.md)
 
 [Home Assistant Cloud by Nabu Casa]: https://www.nabucasa.com
