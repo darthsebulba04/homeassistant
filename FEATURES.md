@@ -9,6 +9,9 @@ Critical alerts when away if motion is detected inside. Also turns off all light
 ## Backup
 Automatically create snapshot each night for backup purposes.
 
+## Cloud
+Very little cloud/internet dependancy.
+
 ## Do Not Disturb
 Ability to manually suppress alerts if I don't want to be disturbed.
 
