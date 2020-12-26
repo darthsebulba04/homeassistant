@@ -5,23 +5,10 @@ For easy programming of, and communication with, the ESP8266 devices and attache
 
 Check out [ESPHOME.md](ESPHOME.md) for my custom sensors.
 
-## Home Assistant Community Store (HACS)
+## [Home Assistant Community Store (HACS)](HACS.md)
 For easy install/updating of various community add-ons and frontend enhancements.
 
-### Battery State Card
-Nice card for listing the battery levels of all the sensors.
-
-### iOS Themes - Dark Mode and Light Mode
-Slick looking theme that makes [Home Assistant] look like a native application.
-
-### Multiple Entity Row
-Custom card for showing multiple entity values in the same row.  A must have for compact designs.
-
-### RGB Color Card
-For the color selection on the lifx light controls.
-
-### Weather Card
-Cool weather card with animated icons.
+Check out [HACS.md](HACS.md) for what I have installed through HACS.
 
 ## iOS Mobile App
 For the location tracking and local/remote control.  Integrates perfectly with [Home Assistant Cloud by Nabu Casa].
