@@ -8,6 +8,8 @@
 
 ![hass-iphone-plants] ![hass-iphone-batteries]
 
+![hass-iphone-graphs]
+
 ![hass-iphone-actions]
 
 ### iPad
@@ -28,5 +30,6 @@
 [hass-iphone-plants]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-plants.jpg
 [hass-iphone-temps]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-temps.jpg
 [hass-iphone-misc]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-misc.jpg
+[hass-iphone-graphs]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-iphone-graphs.jpg
 [hass-macos-home]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-macos-home.jpg
 [hass-macos-temps]: https://github.com/darthsebulba04/homeassistant/blob/master/hass-macos-temps.jpg
