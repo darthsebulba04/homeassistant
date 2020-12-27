@@ -1,12 +1,12 @@
 # Sensors
 
-## Plant Moisture Sensor
-Returns a value between 0 to 1 with 1 being dry.
+## Soil Moisture Sensor
+This sensor measures soil moisture levels.  It has two modes. Digital which provides 0 or 1 depending on the moisture level or a value between 0 and 1 as a more accurate percentage of the moisture.
 
 ![sensor-plant-moisture]
 
 ## BME280
-Using i2c, returns temperature, humidity, and barometric pressure.
+Using i2c, this sensor measures temperature, humidity, and barometric pressure.
 
 ![sensor-bme280]
     
