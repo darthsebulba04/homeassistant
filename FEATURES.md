@@ -7,7 +7,7 @@ Turn bedroom lights on at a specified time in order to wake up.
 Critical alerts when away if motion is detected inside. Also turns off all lights and sets thermostat in "eco" mode.
 
 ## Backup
-Automatically create snapshot each night for backup purposes.
+Automatically create snapshot each night for backup purposes with copying to NAS for offsite replication.
 
 ## Cloud
 Very little cloud/internet dependancy.
