@@ -22,29 +22,8 @@ For the weather.
 ## MQTT
 For communication with Open Z-Wave Add-on.
 
-## Nest
-For control of the Nest thermostat.
-
 ## Open Z-Wave
 For receiving data from the ZOOZ motion sensors, smoke detector, and deadbolt.
-
-## Raspberry Pi RF
-For sending RF codes to the ZAP outlets.
-
-Pin | Use | Purpose
---- | --- | ---
-02 | 5v | Send power (red)
-09 | Ground | Send ground (black)
-11 | GPIO 17 | Send data (green)
-17 | 3v3 | Recv power (red)
-18 | GPIO 24 | Recv data (yellow)
-20 | Ground | Recv ground (black)
-
-_Custom add-on created for "sniffing" the on/off codes needed to get this working._
-
-https://github.com/darthsebulba04/hassio-gpio-rf
-
-https://github.com/darthsebulba04/hassio-addons
 
 ## Zigbee
 For receiving data from the door sensor, simple motion sensor, and phillips hue remotes.
