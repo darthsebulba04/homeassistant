@@ -15,14 +15,14 @@ Using i2c, this sensor measures temperature, humidity, and barometric pressure.
 ![sensor-bme280]
 
 ## TEMT6000
-This sensor reads ambiant light levels.  Returns a value between 0 and 1.
+This sensor reads ambiant light levels.  Returns a decimal value between 0 and 1.
 
 [Documentation](https://esphome.io/cookbook/temt6000.html)
 
 ![sensor-temt6000]
 
 ## PCF8574 Character based display
-A simple looking character display.  I'm currently using a 16x2 display.
+A simple looking character display.  I'm currently using a 16x2 display to show various temperatures and humidity levels.
 
 [Documentation](https://esphome.io/components/display/lcd_display.html?highlight=display)
 
