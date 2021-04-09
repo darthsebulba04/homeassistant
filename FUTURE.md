@@ -7,6 +7,3 @@
 
 ## NFC
 Work with NFC tags
-
-## Spotify
-Integrate Spotify and have music/podcasts play to bluetooth speaker.
