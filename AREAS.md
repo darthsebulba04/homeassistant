@@ -9,12 +9,11 @@
 - 2x [LIFX A19]
 
 ## Dining Room
-Nothing here
+- 1x [LIFX A19]
 
 ## Entry
 - 1x [Phillips Hue RWL020]
 - 1x [Centralite 3323-C]
-- 1x Lowes 3326-L
 
 ### Remote Functions
 Button | Function
@@ -43,7 +42,7 @@ Area for storing works in progress
 - 1x [Centralite 3323-C]
 
 ## Office
-- 1x [LIFX A19] (table lamp)
+- 1x [LIFX Light Strip]
 - 1x [ZOOZ ZSE40]
 - 1x [Phillips Hue RWL020]
 
