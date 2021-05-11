@@ -41,6 +41,7 @@ Area for storing works in progress
 - 1x [ZOOZ ZSE40]
 - 1x [Phillips Hue RWL020]
 - 1x [Centralite 3323-C]
+- 1x [Sonos One SL]
 
 ## Office
 - 1x [LIFX Light Strip]
@@ -58,3 +59,4 @@ Area for storing works in progress
 [Schlage BE469]: https://www.schlage.com/en/home/faq.html?id=128433
 [First Alert ZCOMBO-G]: https://www.firstalertstore.com/store/products/z-wave-smoke-and-carbon-monoxide-alarm-zcombo-g.htm
 [Centralite 3323-C]: https://centralite.com/products/micro-door-sensor
+[Sonos One SL]: https://www.sonos.com/en-us/shop/one-sl.html
