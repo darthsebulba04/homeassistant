@@ -11,7 +11,7 @@ _Chosen because they're the best color changing bulbs I've seenand they fit in a
 WiFi based color changing light light strip.
 
 _Chosen for the same reason as the LIFX light bulbs._
-- Count: 1x
+- Count: 2x
 - Protocol: wifi
 - 
 ## [Etekcity ZAP] wall outlets
