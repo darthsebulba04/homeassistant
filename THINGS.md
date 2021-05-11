@@ -56,6 +56,13 @@ _Chosen because I was tired of NEST and wanted a nice locally controlled thermos
 - Count: 1x
 - Protocol: Z-Wave
 
+## [Sonos One SL]
+Wifi connected speaker with no microphone.
+
+_Chosen for it's support and lack of smarts.
+- Count: 1x
+- Protocol: wifi
+
 ## [Schlage BE469] Touchscreen Deadbolt
 Allows keyless entry.
 
@@ -86,3 +93,4 @@ _Chosen because I already had it._
 [First Alert ZCOMBO-G]: https://www.firstalertstore.com/store/products/z-wave-smoke-and-carbon-monoxide-alarm-zcombo-g.htm
 [Centralite 3323-C]: https://centralite.com/products/micro-door-sensor
 [HoneyWell T6 Pro Thermostat]: https://www.honeywellhome.com/us/en/products/air/thermostats/programmable-thermostats/t6-pro-z-wave-thermostat-th6320zw2003-u/
+[Sonos One SL]: https://www.sonos.com/en-us/shop/one-sl.html
