@@ -33,7 +33,8 @@ Area for storing works in progress
 - 2x [Etekcity ZAP] (night light, salt lamp)
 - 1x [LIFX Light Strip]
 - 1x [Phillips Hue RWL020]
-
+- 1x [Centralite 3323-C]
+- 
 ## Living Room
 - 1x [Etekcity ZAP] (salt lamp)
 - 2x [LIFX A19] (floor lamp, table lamp)
