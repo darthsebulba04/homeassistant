@@ -42,6 +42,7 @@ Area for storing works in progress
 - 1x [Phillips Hue RWL020]
 - 1x [Centralite 3323-C]
 - 1x [Sonos One SL]
+- 1x [Roomba i6+]
 
 ## Office
 - 1x [LIFX Light Strip]
@@ -60,3 +61,4 @@ Area for storing works in progress
 [First Alert ZCOMBO-G]: https://www.firstalertstore.com/store/products/z-wave-smoke-and-carbon-monoxide-alarm-zcombo-g.htm
 [Centralite 3323-C]: https://centralite.com/products/micro-door-sensor
 [Sonos One SL]: https://www.sonos.com/en-us/shop/one-sl.html
+[Roomba i6+]: https://store.irobot.com/default/irobot-site-catalog-na/irobot-roomba-i6--6550-/i655020.html
