@@ -63,6 +63,13 @@ _Chosen for it's support and lack of smarts.
 - Count: 1x
 - Protocol: wifi
 
+## [Roomba i6+]
+Wifi connected robot overlord that cleans my floors.
+
+_Chosen for it's support
+- Count: 1x
+- Protocol: wifi
+
 ## [Schlage BE469] Touchscreen Deadbolt
 Allows keyless entry.
 
@@ -94,3 +101,4 @@ _Chosen because I already had it._
 [Centralite 3323-C]: https://centralite.com/products/micro-door-sensor
 [HoneyWell T6 Pro Thermostat]: https://www.honeywellhome.com/us/en/products/air/thermostats/programmable-thermostats/t6-pro-z-wave-thermostat-th6320zw2003-u/
 [Sonos One SL]: https://www.sonos.com/en-us/shop/one-sl.html
+[Roomba i6+]: https://store.irobot.com/default/irobot-site-catalog-na/irobot-roomba-i6--6550-/i655020.html
