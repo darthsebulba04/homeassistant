@@ -22,6 +22,7 @@ On | Enable "away" mode
 Off | Disable "away"/"out" mode
 
 ## Garage
+- 1x [ESP-SENSOR-THL]
 
 ## Hallway
 - 1x [First Alert ZCOMBO-G] (outside bedroom door)
@@ -50,6 +51,7 @@ Area for storing works in progress
 - 1x [Phillips Hue RWL020]
 
 ## Porch
+- 1x [ESP-SENSOR-THL]
     
 [LIFX A19]: https://www.lifx.com/collections/lamps-and-pendants/products/lifx
 [LIFX Light Strip]: https://www.lifx.com/pages/light-strips
@@ -62,3 +64,4 @@ Area for storing works in progress
 [Centralite 3323-C]: https://centralite.com/products/micro-door-sensor
 [Sonos One SL]: https://www.sonos.com/en-us/shop/one-sl.html
 [Roomba i6+]: https://store.irobot.com/default/irobot-site-catalog-na/irobot-roomba-i6--6550-/i655020.html
+[ESP-SENSOR-THL]: https://github.com/darthsebulba04/homeassistant/blob/master/ESPHOME-THINGS.md#temperaturehumidityluminosity-sensor
