@@ -8,9 +8,9 @@ ESP | Sensor
 GND | GND
 A0 | AO
 
-## Weather/Luminosity Sensor
+## Temperature/Humidity/Luminosity Sensor
 
-
+Sensor to measure the current temperature, humidity, and light levels.
 
 ESP | Sensor
 --- | ---
